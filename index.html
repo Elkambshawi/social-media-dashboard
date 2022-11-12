@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Create Normalize file to reset the page -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- relate the main file css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Connect with file Fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- link with My css Framework -->
+  <link rel="stylesheet" href="css/myframework.css">
+
+
+  <title>Frontend Mentor | Social Media Dashboard With Theme Switcher Master</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Start Header and Nav Bar -->
+  <header>
+    <nav>
+      <div class="container">
+        <div class="title-info">
+          <h1>Social Media Dashboard</h1>
+          <p class="total-followers">Total Followers: 23,004</p>
+        </div>
+        <div class="mode-sec">
+          <div class="mode">Dark Mode</div>
+          <div class="switch">
+            <span class="slider"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header and Nav Bar -->
+
+  <!-- Start first Contents social-cards-->
+  <div class="social-cards">
+    <div class="container">
+      <div class="cards">
+        <div class="card border-color-facebook">
+          <div class="social-icon">
+            <i class="fa-brands fa-facebook facebook"></i>
+            <p class="social-icon">@nathanf</p>
+          </div>
+          <h2 class="followers-number">1987</h2>
+          <span class="followers">Followers</span>
+          <p class="today up">12 Today</p>
+        </div>
+        <div class="card border-color-twitter">
+          <div class="social-icon">
+            <i class="fa-brands fa-twitter twitter"></i>
+            <p class="social-icon">@nathanf</p>
+          </div>
+          <h2 class="followers-number">1044</h2>
+          <span class="followers">Followers</span>
+          <p class="today up">99 Today</p>
+        </div>
+        <div class="card border-color-instagram">
+          <div class="social-icon">
+            <i class="fa-brands fa-instagram instagram"></i>
+            <p class="social-icon">@nathanf</p>
+          </div>
+          <h2 class="followers-number">11k</h2>
+          <span class="followers">Followers</span>
+          <p class="today up">1099 Today</p>
+        </div>
+        <div class="card border-color-youtube">
+          <div class="social-icon">
+            <i class="fa-brands fa-youtube youtube"></i>
+            <p class="social-icon"> Nathan F.</p>
+          </div>
+          <h2 class="followers-number">8239</h2>
+          <span class="followers">Subscribers</span>
+          <p class="today down">144 Today</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End first Contents social-cards-->
+
+  <!-- Start last Contents overview-today-->
+  <div class="overview-today">
+    <div class="container">
+      <h2 class="title">Overview - Today</h2>
+      <div class="boxes">
+        <div class="box">
+          <div class="info">
+            <p class="info">Page Views</p>
+            <i class="fa-brands fa-facebook facebook"></i>
+          </div>
+          <div class="number-details">
+            <p class="number">87</p>
+            <p class="precantage up">3%</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <p class="info">Likes</p>
+            <i class="fa-brands fa-facebook facebook"></i>
+          </div>
+          <div class="number-details">
+            <p class="number">52</p>
+            <p class="precantage down">2%</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <p class="info">Likes</p>
+            <i class="fa-brands fa-instagram instagram"></i>
+          </div>
+          <div class="number-details">
+            <p class="number">5462</p>
+            <p class="precantage up">2257%</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <p class="info">Profile Views</p>
+            <i class="fa-brands fa-instagram instagram"></i>
+          </div>
+          <div class="number-details">
+            <p class="number">52k</p>
+            <p class="precantage up">1375%</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <p class="info">Retweets</p>
+            <i class="fa-brands fa-twitter twitter"></i>
+          </div>
+          <div class="number-details">
+            <p class="number">117</p>
+            <p class="precantage up">303%</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <p class="info">Likes</p>
+            <i class="fa-brands fa-twitter twitter"></i>
+          </div>
+          <div class="number-details">
+            <p class="number">507</p>
+            <p class="precantage up">553%</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <p class="info">Likes</p>
+            <i class="fa-brands fa-youtube youtube"></i>
+          </div>
+          <div class="number-details">
+            <p class="number">107</p>
+            <p class="precantage down">19%</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="info">
+            <p class="info">Total Views</p>
+            <i class="fa-brands fa-youtube youtube"></i>
+          </div>
+          <div class="number-details">
+            <p class="number">1407</p>
+            <p class="precantage down">12%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End last Contents overview-today-->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Abdelrahman Elkambshawi</a>.
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
